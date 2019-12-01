@@ -13,6 +13,8 @@
 		466DF9BF238F2A88008490EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466DF9BD238F2A88008490EB /* Main.storyboard */; };
 		466DF9C1238F2A8A008490EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466DF9C0238F2A8A008490EB /* Assets.xcassets */; };
 		466DF9C4238F2A8A008490EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466DF9C2238F2A8A008490EB /* LaunchScreen.storyboard */; };
+		466DF9CC238F2E0C008490EB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 466DF9CB238F2E0C008490EB /* Settings.bundle */; };
+		466DF9D0238F3702008490EB /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466DF9CF238F3702008490EB /* SettingsBundleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		466DF9C0238F2A8A008490EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		466DF9C3238F2A8A008490EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466DF9C5238F2A8A008490EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466DF9CB238F2E0C008490EB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		466DF9CF238F3702008490EB /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				466DF9C0238F2A8A008490EB /* Assets.xcassets */,
 				466DF9C2238F2A8A008490EB /* LaunchScreen.storyboard */,
 				466DF9C5238F2A8A008490EB /* Info.plist */,
+				466DF9CB238F2E0C008490EB /* Settings.bundle */,
+				466DF9CF238F3702008490EB /* SettingsBundleHelper.swift */,
 			);
 			path = "doing settings";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466DF9CC238F2E0C008490EB /* Settings.bundle in Resources */,
 				466DF9C4238F2A8A008490EB /* LaunchScreen.storyboard in Resources */,
 				466DF9C1238F2A8A008490EB /* Assets.xcassets in Resources */,
 				466DF9BF238F2A88008490EB /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466DF9D0238F3702008490EB /* SettingsBundleHelper.swift in Sources */,
 				466DF9BC238F2A88008490EB /* ViewController.swift in Sources */,
 				466DF9B8238F2A88008490EB /* AppDelegate.swift in Sources */,
 				466DF9BA238F2A88008490EB /* SceneDelegate.swift in Sources */,
